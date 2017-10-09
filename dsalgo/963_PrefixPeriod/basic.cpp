@@ -27,8 +27,22 @@ void computeNext(string s)
 		}
 		i++;
 		k++;
+		//this is unoptimized method
 		NEXT[i] = k;
+		//NOTICE: below is for optimized method
+		//if(s[k] == s[i])
+		//{
+			//NEXT[i] = NEXT[k];
+		//}
+		//else
+		//{
+			//NEXT[i] = k;
+		//}
 	}
+	//for(i = 0; i <= len; ++i)
+	//{
+		//cout<<NEXT[i]<<" ";
+	//}cout<<endl;
 }
 
 int main()
