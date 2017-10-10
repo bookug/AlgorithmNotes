@@ -2,6 +2,8 @@
 //1. transfer Infix Expression to Suffix Expression, and then compute value using stack
 //If the number contains '.', then we can also deal with it.
 //TODO: we may need to deal with such cases: -7*3  (just add 0 before - if the former character is an operator)
+//The operators here are all binary, and the corresponding expression tree's leaves are all numbers
+//If we allow unary operator or operators with many(>2) numbers?(special flags or transfered to binary?)
 //
 //NOTICE: only Infix Expression can guarantee the unique expression tree, and the value is ensured
 //(as well as Prefix Expression or Postfix Expression)
